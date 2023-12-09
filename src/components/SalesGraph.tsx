@@ -2,10 +2,10 @@ import React from 'react';
 
 // Components
 import { Line } from 'react-chartjs-2';
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement } from 'chart.js';
+import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Tooltip } from 'chart.js';
 
 // Register necessary components from Chart.js library
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement);
+ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Tooltip);
 
 // Define array of moth labels for x-axis
 export const MONTH_LABELS: string[] = [
