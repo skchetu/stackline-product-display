@@ -1,14 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import { Provider } from 'react-redux';
+
+// Utils
+import store from './redux/store';
+
+// Components
+import TopBar from './components/TopBar';
+import ProductDataView from './components/ProductDataView';
+
 import './App.css';
 
 function App() {
+  // Render webpage to display product data from provided JSON
   return (
-    <div className="App">
-      <header className="App-header">
-        hello
-      </header>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <TopBar />
+        <ProductDataView />
+      </div>
+    </Provider>
   );
 }
 

@@ -1,0 +1,173 @@
+body {
+  background-color: #f6f8fa;
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+}
+
+/* Styling for the top bar, which contains the company logo */
+.top-bar {
+  background-color: #102747;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 25px;
+}
+
+/* Styling for the main product display, which includes the side panel, graph, and table */
+.product-display {
+  display: flex;
+}
+
+/* Styling for the side panel elements */
+.side-panel {
+  width: 300px;
+  height: 100vh;
+  background-color: white;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  text-align: center;
+}
+
+.side-panel img {
+  width: 125px;
+  height: auto;
+}
+
+.side-panel h2 {
+  color: #36454f;
+}
+
+.side-panel p {
+  color: #bebebe;
+  white-space: normal;
+}
+
+/* Styling for the tags associated with the product */
+.tags-container {
+  margin: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.tag {
+  display: inline-block;
+  border: 1px solid #dcdcdc;
+  padding: 2px 12px;
+  margin: 5px;
+  color: #36454f;
+}
+
+.tag:hover {
+  background-color: #f1f1f1;
+}
+
+/* Styling for the graph and table containers */
+.product-data-display {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.graph-title {
+  color: #36454f;
+  font-size: 14px;
+  margin: 20px;
+}
+
+.graph-container {
+  background-color: white;
+  flex: 1;
+  padding: 0px;
+  height: auto;
+  margin-bottom: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  width: 80vw;
+  min-width: 500px;
+}
+
+.line-graph {
+  position: relative;
+  height: 150px;
+  width: 80vw;
+  min-width: 500px;
+  margin: 100px 0;
+}
+
+.table-container {
+  background-color: white;
+  flex: 1;
+  width: 80vw;
+  min-width: 500px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.month-labels {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  color: #bebebe;
+  margin: 20px 0;
+}
+
+.horizontal-line {
+  height: 1px;
+  width: 100%;
+  color: #f5f5f5;
+  background-color: #f5f5f5;
+}
+
+/* Styling for ascending and descenging sort icons */
+.sort-icons {
+  color: #bebebe;
+}
+
+/* Styling for product data table */
+.product-data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-data-table th,
+.product-data-table td {
+  text-align: right;
+}
+
+.product-data-table th {
+  color: #36454f;
+  border-bottom: 1px solid #f5f5f5;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.product-data-table td {
+  color: #bebebe;
+  border-bottom: 1px solid #f5f5f5;
+  padding: 15px 20px;
+}
+
+.product-data-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.product-data-table th.leftAlign,
+.product-data-table td.leftAlign {
+  text-align: left;
+}
+
+.product-data-table td:not(.leftAlign):not(:empty) {
+  padding-right: 40px;
+}
