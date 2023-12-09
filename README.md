@@ -17,9 +17,10 @@ A simple webpage using Typecript, React, Redux, and Chart.js to display product 
 - Chart.js was used for displaying a line graph. Chart.js is easy to integrate and straightfoward to use especially for simple data or simple graphs.
 - A custom table was built with custom SortableHeader components. This gives the table sorting capabilities by the selected column.
 
-#### Demo
-
-
+## Demo
+<img width="1757" alt="Screenshot 2023-12-08 at 4 44 22 PM" src="https://github.com/skchetu/stackline-product-display/assets/35510454/083dc8c6-4c5f-4f19-bc1c-0fa4590edcd0">
+<img width="1757" alt="Screenshot 2023-12-08 at 4 45 29 PM" src="https://github.com/skchetu/stackline-product-display/assets/35510454/60c9f4b9-0e5f-43fc-b1e8-bfe7b8c7f9f5">
+<img width="1757" alt="Screenshot 2023-12-08 at 4 45 43 PM" src="https://github.com/skchetu/stackline-product-display/assets/35510454/b5339f11-af92-42d2-81d6-ab0cbc78e890">
 
 ## How to Run
 
